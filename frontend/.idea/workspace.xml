@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4feb7c0-d647-4ba7-892b-12cd7c727891" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../backend/src/generated/prisma.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/generated/prisma.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/resolvers/Mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/resolvers/Mutation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/resolvers/Query.js" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/resolvers/Query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/variables.env.sample" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../backend" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
@@ -71,7 +74,12 @@
       <workItem from="1598374369326" duration="1504000" />
       <workItem from="1598444627212" duration="1552000" />
       <workItem from="1598451001887" duration="763000" />
-      <workItem from="1598513492961" duration="5686000" />
+      <workItem from="1598513492961" duration="7521000" />
+      <workItem from="1598970954591" duration="600000" />
+      <workItem from="1599035526680" duration="1258000" />
+      <workItem from="1599038351988" duration="600000" />
+      <workItem from="1599136663422" duration="610000" />
+      <workItem from="1599137460932" duration="622000" />
     </task>
     <servers />
   </component>
@@ -79,21 +87,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2539" height="401" key="GridCell.Tab.0.bottom" timestamp="1598527608040">
+    <state x="1060" y="456" key="FileChooserDialogImpl" timestamp="1599136667519">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.149.1920.1040/2560.0.1920.1040@0.0.2560.1400" timestamp="1598527608040" />
-    <state width="2539" height="401" key="GridCell.Tab.0.center" timestamp="1598527608039">
+    <state x="1060" y="456" key="FileChooserDialogImpl/0.0.2560.1400/-1920.149.1920.1040/2560.0.1920.1040@0.0.2560.1400" timestamp="1599136667519" />
+    <state width="2539" height="401" key="GridCell.Tab.0.bottom" timestamp="1598549418144">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.149.1920.1040/2560.0.1920.1040@0.0.2560.1400" timestamp="1598527608039" />
-    <state width="2539" height="401" key="GridCell.Tab.0.left" timestamp="1598527608039">
+    <state width="2539" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.149.1920.1040/2560.0.1920.1040@0.0.2560.1400" timestamp="1598549418144" />
+    <state width="2539" height="401" key="GridCell.Tab.0.center" timestamp="1598549418144">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.149.1920.1040/2560.0.1920.1040@0.0.2560.1400" timestamp="1598527608039" />
-    <state width="2539" height="401" key="GridCell.Tab.0.right" timestamp="1598527608039">
+    <state width="2539" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.149.1920.1040/2560.0.1920.1040@0.0.2560.1400" timestamp="1598549418144" />
+    <state width="2539" height="401" key="GridCell.Tab.0.left" timestamp="1598549418144">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.149.1920.1040/2560.0.1920.1040@0.0.2560.1400" timestamp="1598527608039" />
+    <state width="2539" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.149.1920.1040/2560.0.1920.1040@0.0.2560.1400" timestamp="1598549418144" />
+    <state width="2539" height="401" key="GridCell.Tab.0.right" timestamp="1598549418144">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.149.1920.1040/2560.0.1920.1040@0.0.2560.1400" timestamp="1598549418144" />
   </component>
 </project>
