@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4feb7c0-d647-4ba7-892b-12cd7c727891" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../backend/src/generated/prisma.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/generated/prisma.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/resolvers/Mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/resolvers/Mutation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/resolvers/Query.js" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/resolvers/Query.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/variables.env.sample" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/sell.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/sell.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +26,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../backend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -42,9 +40,20 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -80,6 +89,9 @@
       <workItem from="1599038351988" duration="600000" />
       <workItem from="1599136663422" duration="610000" />
       <workItem from="1599137460932" duration="622000" />
+      <workItem from="1599211575569" duration="4134000" />
+      <workItem from="1599221822878" duration="206000" />
+      <workItem from="1599222127721" duration="8913000" />
     </task>
     <servers />
   </component>
@@ -91,21 +103,21 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="456" key="FileChooserDialogImpl/0.0.2560.1400/-1920.149.1920.1040/2560.0.1920.1040@0.0.2560.1400" timestamp="1599136667519" />
-    <state width="2539" height="401" key="GridCell.Tab.0.bottom" timestamp="1598549418144">
+    <state width="2539" height="401" key="GridCell.Tab.0.bottom" timestamp="1599241708213">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.149.1920.1040/2560.0.1920.1040@0.0.2560.1400" timestamp="1598549418144" />
-    <state width="2539" height="401" key="GridCell.Tab.0.center" timestamp="1598549418144">
+    <state width="2539" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.149.1920.1040/2560.0.1920.1040@0.0.2560.1400" timestamp="1599241708213" />
+    <state width="2539" height="401" key="GridCell.Tab.0.center" timestamp="1599241708213">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.149.1920.1040/2560.0.1920.1040@0.0.2560.1400" timestamp="1598549418144" />
-    <state width="2539" height="401" key="GridCell.Tab.0.left" timestamp="1598549418144">
+    <state width="2539" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.149.1920.1040/2560.0.1920.1040@0.0.2560.1400" timestamp="1599241708213" />
+    <state width="2539" height="401" key="GridCell.Tab.0.left" timestamp="1599241708212">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.149.1920.1040/2560.0.1920.1040@0.0.2560.1400" timestamp="1598549418144" />
-    <state width="2539" height="401" key="GridCell.Tab.0.right" timestamp="1598549418144">
+    <state width="2539" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.149.1920.1040/2560.0.1920.1040@0.0.2560.1400" timestamp="1599241708212" />
+    <state width="2539" height="401" key="GridCell.Tab.0.right" timestamp="1599241708213">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.149.1920.1040/2560.0.1920.1040@0.0.2560.1400" timestamp="1598549418144" />
+    <state width="2539" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.149.1920.1040/2560.0.1920.1040@0.0.2560.1400" timestamp="1599241708213" />
   </component>
 </project>
